@@ -1,0 +1,50 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 100px;
+}
+h1{
+    text-align: center;
+    color: orangered;
+}
+h2{
+    color: orangered;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.redes{
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: #549fff1f;
+}
+.contatos{
+    margin-top: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: #549fff1f;
+    padding: 5px;
+}
+.tabela{
+    border: 2px dotted;
+    border-radius: 10px;
+    width: 100%;
+}
+.tabela2{
+    border: 2px dotted;
+    border-radius: 10px;
+}
+td{
+    border: 2px dotted;
+    border-radius: 10px;
+}
+caption{
+    text-align: left;
+}
+.cell{
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+
