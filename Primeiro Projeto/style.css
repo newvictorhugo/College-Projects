@@ -1,0 +1,64 @@
+.unoeste{
+    text-align: center;    
+    height: 50px;
+}
+
+.titulo{
+    width: auto;
+    height: auto;
+    margin: 100px;
+    text-align: center;
+    background-color: #F8FCEF;
+    border-style: outset;
+}
+.linha-apresentacao{
+    margin: 0 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #F8FCEF;
+
+}
+.perguntas{
+    margin: auto;
+}
+.dois{
+    background-color: rgb(223, 211, 172);
+}
+.details3-1{
+    margin-left: 40px;
+}
+.details3-2{
+    margin-left: 700px;
+}
+.details3-3{
+    margin-left: 40px;
+}
+.details4-1{
+    margin-left: 40px;
+}
+.details5-1{
+    margin-left: 40px;
+}
+.details8-1{
+    margin-left: 40px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 40px;
+    margin-right: 700px;
+   
+}
+.rodape{
+    height: 500px;
+    background-color: #fff4d6;
+}
+.span{
+    margin-left: 590px;
+}
+.h2rodape{
+    text-align: center;
+}

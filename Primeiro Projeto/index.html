@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .nome{
+            margin-left: 900px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(100, 100, 100);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="unoeste">
+        <img src="https://th.bing.com/th/id/OIP.nNmfdts8DzAF6_TaBcVtHAAAAA?pid=ImgDet&rs=1" alt="image" height="auto" width="200px">
+
+    </div>
+
+    <div class="titulo">
+    <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> <br>Questionário sobre CSS <span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">(Folhas de Estilo em Cascata)</span> </h1> <br> <br>
+    </div>
+
+
+    <div class="linha-apresentacao">
+        <h2><br>Perguntas frequentemente feitas por professores de programação:</h2> <br>
+    </div>
+
+    <br><div class="perguntas">
+        <h3>1. O que significa CSS?</h3>
+        <p>(Cascading Style Sheet) é uma linguagem de estilização de uma página web, aplicado diretamente nas tags HTML. </p> <br>
+
+        <h3>2. Cite 2 características importantes quando se usa CSS?</h3>
+        <p>Saber que CSS se usa para alterar a posição, cor e fonte do texto. Quando for usar um estilo de comando, priorize aquele estilo, para a linha de comando ficar mais limpa.</p> <br>
+
+        <h3>3. Quais as possíveis formas de vincular o CSS em um documento HTML? Cite e exemplifique</h3>
+        <p style="margin-right: 700px;">Temos três estilo de utilização para CSS, temos o estilo incorporado, estilo importado e estilo inline. O estilo incorporado é usado quando não existe um padrão comum aos vários documentos de um site.</p>
+        <div class="details3-1">
+            <details>
+                <summary style="text-decoration: underline;">Por exemplo:</summary>
+                <p style="margin-right: 700px; background-color: rgb(180, 180, 180); border-style: solid;">&lthtml&gt <br> &lthead&gt <br>ㅤ&lttitle&gt&lt/title&gt <br> ㅤ&ltstyle type="text/css"&gt &lt!-- Aqui se inicia o processo incorporado, ao invés de digitarmos o código que queremos dentro da pasta css, incorporamos esse mesmo código na pasta html --&gt<br> ㅤㅤh1 {text-align: center; color: blue} <br> ㅤㅤp {font-family: serif} <br> ㅤ&lt/style&gt <br> &lt/head&gt <br> &ltbody&gt <br> ㅤ&lth1&gtPágina sem formatação de estilos&lt/h1&gt <br> &lt/body&gt <br> &lt/html&gt</p>
+            </details> <br>
+        </div>
+        
+        <p style="margin-left: 700px; margin-right: 40px;">No estilo importado, a definição é feita num arquivo separado e importado na página.</p>
+        <div class="details3-2">
+            <details>
+                <summary style="text-decoration: underline;">Por exemplo:</summary>
+                <p style="margin-left: 20px; margin-right: 40px; background-color: rgb(180, 180, 180); border-style: solid;">&lthtml&gt <br> &lthead&gt <br>ㅤ&lttitle&gt&lt/title&gt <br> ㅤ&ltlink rel="stylesheet" href="style.css" type="text/css"/&gt &lt!--Aqui foi importado a pasta css dentro da pasta html--&gt <br> &lt/head&gt <br> .... </p>
+            </details> <br>
+        </div>
+        
+        <p style="margin-right: 700px; margin-right: 40px;">No estilo inline, a definição de CSS é feita diretamente na tag HTML com o uso do atributo style.</p>
+        <div class="details3-3">
+            <details>
+                <summary style="text-decoration: underline;">Por exemplo:</summary>
+                <p style="margin-right: 700px; background-color: rgb(180, 180, 180); border-style: solid;">&lthtml&gt <br> &lthead&gt <br>ㅤ&lttitle&gt&lt/title&gt <br> ㅤ&ltstyle type="text/css"&gt &lt!-- Aqui se inicia o processo incorporado, ao invés de digitarmos o código que queremos dentro da pasta css, incorporamos esse mesmo código na pasta html--&gt<br> ㅤㅤh1 {text-align: center; color: blue} <br> ㅤㅤp {font-family: serif} <br> ㅤ&lt/style&gt <br> &lt/head&gt <br> &ltbody&gt <br> ㅤ&lth1&gtPágina sem formatação de estilos&lt/h1&gt <br> &lt/body&gt <br> &lt/html&gt</p> <br>
+            </details> <br>
+        </div>
+        
+        <h3>4. Na definição do CSS o que representa a criação de uma regra no seletor?</h3>
+        <p>Seletor define em quais elementos um conjunto de regras CSS se aplica. O que representa a criação de uma regra é o conjunto de elementos que são selecionados pelo seletor.</p>
+        <div class="details4-1">
+            <details>
+                <summary style="text-decoration: underline;">Por Exemplo:</summary>
+                <p style="margin-left: 20px; margin-right: 700px; background-color: rgb(180, 180, 180); border-style: solid;">h3{ <br> ㅤ text-align: center; <br> ㅤ backgroud-color: #F8FCEF; <br> }</p>
+                <p><b>"h3": Seletor <br> Dentro da chave{ }: Regra do seletor </b></p>
+            </details> <br>
+            </div>
+        
+        <h3>5. Como se comenta uma linha na definição do arquivo CSS?</h3>
+        <p>Para comentar uma linha dentro de arquivo CSS se usa /* Texto */</p>
+        <div class="details5-1">
+        <details>
+            <summary style="text-decoration: underline;">Por Exemplo:</summary>
+            <p style="margin-left: 20px; margin-right: 700px; background-color: rgb(180, 180, 180); border-style: solid;">h3{ <br> ㅤ text-align: center; /*Comentário sobre a linha de comando*/  <br> ㅤ backgroud-color: #F8FCEF; <br> }</p>
+        </details> <br>
+        </div>
+        <h3>6. Quais são os delimitadores de início e fim na definição de uma regra do CSS?</h3>
+        <p>Os delimitadores de inicio e fim são feitos pelas "chaves" {Regras}. Será dado o valor do seletor, em seguida abrirá as chaves ({), digitará a regra no seletor e fechará as chaves (}). Visualize o exemplo da questão 5.</p><br>
+
+        <h3>7. Quando o ; será utilizado?</h3>
+        <p>O ; é usado dentro do arquivo CSS para dizer ao programa que a leitura terminou naquela linha e que ele deve passar para a próxima. Visualize o exemplo da questão 5.</p><br>
+
+        <h3>8. O que são valores múltiplos para serem usados nas regras CSS?</h3>
+        <p>Valores multiplos, no CSS, são valores dentros das regras dos seletores, mas simplificados.</p>
+        <div class="details8-1">
+            <details>
+                <summary style="text-decoration: underline;">Por Exemplo:</summary>
+                <p style="margin-left: 20px; margin-right: 700px; background-color: rgb(180, 180, 180); border-style: solid;">.div { <br> ㅤ margin-left: 100px; <br> ㅤ margin-right: 60px; <br> ㅤ margin-top: 50px; <br> }</p>
+                <p><b>Dessa forma repetimos a mesma propriedade "margin", dando valor para cada lado, assim o código fica muito extenso. Não está errado, mas também não está da melhor forma.</b></p>
+                <p style="margin-left: 20px; margin-right: 700px; background-color: rgb(180, 180, 180); border-style: solid;">.div { <br> ㅤ margin: 50px 60px 0 100px  <br> }</p>
+                <p><b>O CSS disponibiliza atalho para você inserir valores em uma única propriedade seguindo uma ordem e um padrão. <br> 
+                    Nessa propriedade você tem 4 maneiras de declarar múltiplos valores, veja: <br> <br>
+                    ● Para 1 valor: todos lados tem o mesmo valor. <br>
+                    ● Para 2 valores: o primeira valor se aplica ao top e o bottom. E o segundo valor ao left e right. <br>
+                    ● Para 3 valores: o primeiro se aplica ao top, o segundo ao right e left e o terceiro ao bottom. <br>
+                    ● Para 4 valores, a ordem é: top, right, bottom e left (sentido horário).</b></p>
+            </details>
+            </div><br><br>
+
+    </div>
+    <div class="rodape">
+        <br>
+        <h2 class="h2rodape" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Me dá um 10 professor.</h2> <br>
+        <br><br><br><br><br>
+        <hr>
+        <br><br>
+        <span class="span"><img src="https://www.unoeste.br/Content/Imagens/logoUnoeste.png" alt="image" height="auto" width="150px"> </span>
+        <br><br><br><br><br><br><br>
+        <h4 class="nome">Victor Hugo Vicente dos Santos</h4>
+    </div>
+</body>
+</html>
