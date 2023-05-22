@@ -51,7 +51,7 @@ body{
 
 .menu{
     float: left;
-    margin: 50px 40px 0 50px;
+    margin: 50px 40px 0 0px;
     padding: 7px 0 7px 0;
     border-radius: 10px;
     box-shadow: -5px 5px 5px #e7e7e7;

@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #f8f8f8;
+}
+.Htopo{
+    box-shadow: 0 5px 5px #e7e7e7;
+    padding: 0 0 60px 0;
+    background-color: white;
+}
+.imglogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 15px;
+    width: 40px;
+    height: auto;
+    float: left;
+}
+.Htextologo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 20px 0 0 0;
+}
+.titulo{
+    color: #575a5b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Hvisitesite{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin: 23px 0 0 0;
+}
+.imgiconedesite{
+    margin-left: 90px;
+    width: 20px;    
+}
+.linksite{
+    font-size: smaller;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+.menu{
+    float: left;
+    margin: 50px 40px 0 0px;
+    padding: 7px 0 7px 0;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px #e7e7e7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 90%;
+    color: black;
+    background-color: white;
+}
+.capmenu{
+    font-weight: bold;
+    color: #575a5b;
+    margin: 0 0 10px 0;
+}
+.elementomenu{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px #e7e7e7;
+    padding: 7px;
+}
+.iconprincipal{
+    width: 24px;
+}
+.iconcadasvolun{
+    width: 24px;
+}
+.iconlistvolun{
+    width: 23px;
+    margin-right: 5px;
+}
+
+
+.titulopag{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px 0 0 0;
+}
+.subtitulopag{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #575a5b;
+    margin: 30px 0 0 0;
+}
+.cadasvolun{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    height: 175px;
+    box-shadow: -5px 5px 5px #e7e7e7;
+    background-color: white;
+}
+.formulario{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.formNome{
+    background-color: #e7e7e7;
+    background-image: url('https://api.iconify.design/mdi/account.svg?color=%23575a5b');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 0 0 0 30px;
+    width: 251px;
+    height: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.formDTNasc{
+    background-color: #e7e7e7;
+    background-image: url('https://api.iconify.design/mdi/calendar-account.svg?color=%23575a5b');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 0 0 0 30px;
+    height: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formEnder{
+    background-color: #e7e7e7;
+    background-image: url('https://api.iconify.design/mdi/map-marker.svg?color=%23575a5b');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 0 237px 0 30px;
+    height: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formTel{
+    background-color: #e7e7e7;
+    background-image: url('https://api.iconify.design/mdi/phone.svg?color=%23575a5b');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 0 0 0 30px;
+    height: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formEmail{
+    background-color: #e7e7e7;
+    background-image: url('https://api.iconify.design/mdi/email.svg?color=%23575a5b');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 0 0 0 30px;
+    height: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.red{
+    color: red;
+}
+.txtinput1{
+    font-size: small;
+    margin: 0 168px 0 0;
+}
+.txtinput2{
+    font-size: small;
+}
+.txtinput3{
+    font-size: small;
+    margin: 0 168px 0 0;
+}
