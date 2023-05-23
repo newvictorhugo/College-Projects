@@ -99,17 +99,18 @@ body{
 .cadasvolun{
     display: flex;
     float: left;
-    justify-content: center;
     align-items: center;
     margin: 20px 0 0 0;
+    padding: 0 0 0 40px;
     border-radius: 10px;
-    height: 175px;
+    height: 185px;
+    width: 870px;
     box-shadow: -5px 5px 5px #e7e7e7;
     background-color: white;
 }
 .formulario{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
+    width: 850px;
 }
 .formNome{
     background-color: #e7e7e7;
@@ -117,7 +118,7 @@ body{
     background-repeat: no-repeat;
     background-size: 30px;
     padding: 0 0 0 30px;
-    width: 251px;
+    width: 256px;
     height: 30px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -168,7 +169,7 @@ body{
 }
 .txtinput1{
     font-size: small;
-    margin: 0 168px 0 0;
+    margin: 0 172px 0 0;
 }
 .txtinput2{
     font-size: small;
@@ -176,4 +177,73 @@ body{
 .txtinput3{
     font-size: small;
     margin: 0 168px 0 0;
+}
+.disponibilidade{
+    margin-bottom: -15px;
+}
+.lar-provisorio{
+    float: right;
+    margin: 0 50px 0 50px;
+}
+.txtdisp{
+    float: right;
+    font-size: small;
+    font-weight: bold;
+    color: #575a5b;
+    margin: -16px 240px 0 0;
+}
+.txtLarProv{
+    float: right;
+    font-size: small;
+    font-weight: bold;
+    color: #575a5b;
+    margin: 0 20px 0 0;
+}
+.selLarProv{
+    float: right;
+    width: 130px;
+    height: 30px;
+    margin: 0 3px 0 0;
+    border: solid #575a5b;
+    border-radius: 6px;
+}
+.carro-solidario{
+    margin: 0 0 -18px 0;
+}
+.txtCarSolid{
+    float: right;
+    font-size: small;
+    font-weight: bold;
+    color: #575a5b;
+    margin: 0 0 0 0;
+}
+.selCarSolid{
+    float: right;
+    width: 130px;
+    height: 30px;
+    margin: 0 -10px 0 0;
+    border: solid #575a5b;
+    border-radius: 6px;
+}
+.limpar{
+    float: right;
+    margin: 0 20px 0 0;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #909090;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.confirmar{
+    float: right;
+    margin: 0 20px 0 0;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #4f9045;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
 }
