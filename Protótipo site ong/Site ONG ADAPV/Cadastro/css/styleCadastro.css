@@ -11,6 +11,10 @@ body{
     padding: 0 0 60px 0;
     background-color: white;
 }
+.ctxt{
+    color: #575a5b;
+    text-decoration: none;
+}
 .imglogo{
     display: flex;
     justify-content: center;

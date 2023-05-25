@@ -27,6 +27,10 @@ body{
     float: left;
     margin: 20px 0 0 0;
 }
+.ctxt{
+    color: #575a5b;
+    text-decoration: none;
+}
 .titulo{
     color: #575a5b;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

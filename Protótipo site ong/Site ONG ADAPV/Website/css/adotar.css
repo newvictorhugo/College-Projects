@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:opsz@5..1200&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+
+body{
+    background: #f8f8f8;
+    margin-left: 60px;
+}
+/* Inicio Menu */
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+font-size: 25px;
+color:white;
+text-decoration: none;
+font-weight: 600;
+
+}
+
+.bn{
+    color: white;
+    font-size:18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+.bn a:hover{
+    color: orange;
+}
+
+.titulo{
+  margin: 90px 0 0 0;
+}
+.adoption-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.adoption-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.animal-card {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.animal-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.animal-card h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.animal-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.animal-card .adoption-button {
+  display: inline-block;
+  background-color: #ff8000;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.adotar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.imagem{
+  width: 200px;
+  height: auto;
+}

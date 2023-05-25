@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:opsz@5..1200&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+
+body{
+    background-color: #f2f2f2;
+
+}
+
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+font-size: 25px;
+color:white;
+text-decoration: none;
+font-weight: 600;
+
+}
+
+.bn{
+    color: white;
+    font-size:18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+.bn a:hover{
+color: orange;
+}
+
+.contact-section {
+    padding: 40px;
+    text-align: center;
+    margin: 90px 0 0 0;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.submit-button {
+    background-color: #ff8000;
+    color: #fff;
+    border: 3px transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left:70px;
+}
+.submit-button2 {
+    background-color: #8b8b8b;
+    color: white;
+    border: 3px transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-right: 70px;
+}
