@@ -80,6 +80,7 @@ body{
 /* Final Texto*/
 
 /* Botão Personalizar */
+/* Botão 1 + Animação */
 .btn a{
     position: relative;
     display: inline-flex;
@@ -98,18 +99,19 @@ body{
     z-index: 1;
     overflow: hidden;
 }
+/* Botão 2 */
 .btn a:nth-child(2){
     background-color: transparent;
     color:white;
 
 }
-/* Botão 1 */
+/* Botão 2 */
 .btn a:nth-child(2)::before{
-    background:rgb(134, 74, 47);
+    background:black;
     overflow: hidden;
 
 }
-/* Botão 2 */
+/* Botão 1 */
 .btn a::before{
     content: '';
     position: absolute;
@@ -117,7 +119,7 @@ body{
     left: 0;
     width: 0;
     height: 100%;
-    background:brown;
+    background:black;
     z-index: -1;
     transition: 0.5s;
 }
@@ -125,7 +127,7 @@ body{
     width: 100%;
 
 }
-/* Icone PErsonalizar */
+/* Icone Personalizar */
 .icone{
     position: absolute;
     bottom: 40px;
@@ -134,16 +136,38 @@ body{
     justify-content: space-between;
 
 }
-/* Icone Personalizar */
+/* Icone Personalizar p1 */
 .icone a {
-justify-content: center;
-display: inline-flex;
-align-items: center;
-width: 40px;
-height: 40px;
-background-color: white;
-border: 2px solid transparent;
-border-radius: 50%;
-font-size: 20px;
-text-decoration: none;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* Pagina 2 Fundo */
+.pag2{
+    background:wheat;
+    color: white;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pt2 h1{
+    color:black;
+    height:300px;
+    text-align: center;
+
+
+}
+.pag3{
+    background: black;
+    height: 600px;
+
+
 }

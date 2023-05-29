@@ -11,7 +11,6 @@
 
 body{
     background: #f8f8f8;
-    margin-left: 60px;
 }
 /* Inicio Menu */
 .header{
@@ -46,7 +45,15 @@ font-weight: 600;
 .bn a:hover{
     color: orange;
 }
-
+.topo{
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background: url(retrato-de-cao-pastor-alemao-em-iluminacao-gradiente.jpg);
+  background-size: cover;
+}
 .titulo{
   margin: 90px 0 0 0;
 }
