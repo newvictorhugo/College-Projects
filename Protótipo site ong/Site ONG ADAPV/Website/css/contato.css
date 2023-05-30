@@ -18,20 +18,34 @@ body{
     top: 0%;
     left: 0%;
     width: 100%;
-    padding: 20px 10%;
+    padding: 0 10% 0 2%;
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
-
+.imglogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 10px 15px;
+    width: 50px;
+    height: auto;
+    float: left;
+}
+/*Logo Adapv*/
 .logo{
-font-size: 25px;
-color:white;
-text-decoration: none;
-font-weight: 600;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 20px 10px 10px 0;
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+    
 }
 
 .bn{

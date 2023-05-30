@@ -14,48 +14,75 @@ body{
 }
 /* Inicio Menu */
 .header{
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    padding: 20px 10%;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  padding: 0 10% 0 2%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
 }
-
+.imglogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 15px 10px 15px;
+  width: 50px;
+  height: auto;
+  float: left;
+}
+/*Logo Adapv*/
 .logo{
-font-size: 25px;
-color:white;
-text-decoration: none;
-font-weight: 600;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin: 20px 10px 10px 0;
+  font-size: 25px;
+  color:white;
+  text-decoration: none;
+  font-weight: 600;
+  
 }
 
 .bn{
-    color: white;
-    font-size:18px;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: 0.5s;
+  color: white;
+  font-size:18px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 0.5s;
 }
 .bn a:hover{
-    color: orange;
+  color: orange;
 }
 .topo{
   display: flex;
   align-items: center;
+  background: url(retrato-de-cao-pastor-alemao-em-iluminacao-gradiente.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
-  background: url(retrato-de-cao-pastor-alemao-em-iluminacao-gradiente.jpg);
-  background-size: cover;
+}
+.blocktexto{
+  align-items: center;
+  margin: 150px 0 0 200px;
+  width: 600px;
 }
 .titulo{
-  margin: 90px 0 0 0;
+  display: flex;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.textotopo{
+  display: flex;
+  text-align: left;
+  color: white;
+
 }
 .adoption-section {
   padding: 40px;
@@ -119,4 +146,8 @@ font-weight: 600;
 .imagem{
   width: 200px;
   height: auto;
+}
+.fundo{
+  height: 200px;
+  background-color: #b65b01;
 }
