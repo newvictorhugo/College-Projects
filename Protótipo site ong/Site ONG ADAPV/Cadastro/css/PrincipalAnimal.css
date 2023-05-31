@@ -5,7 +5,6 @@
 }
 body{
     background-color: #f8f8f8;
-    margin-left: 60px;
 }
 .Htopo{
     box-shadow: 0 5px 5px #e7e7e7;
@@ -28,10 +27,6 @@ body{
     float: left;
     margin: 20px 0 0 0;
 }
-.ctxt{
-    color: #575a5b;
-    text-decoration: none;
-}
 .titulo{
     color: #575a5b;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -52,8 +47,41 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
+
+
 .menu{
-    margin-left: 50px;
+    float: left;
+    margin: 50px 40px 0 0px;
+    padding: 7px 0 7px 0;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px #e7e7e7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 90%;
+    color: black;
+    background-color: white;
+}
+.capmenu{
+    font-weight: bold;
+    color: #575a5b;
+    margin: 0 0 10px 0;
+}
+.elementomenu{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px #e7e7e7;
+    padding: 7px;
+}
+.iconprincipal{
+    width: 24px;
+}
+.iconcadasvolun{
+    width: 24px;
+}
+.iconlistvolun{
+    width: 23px;
+    margin-right: 5px;
 }
 
 

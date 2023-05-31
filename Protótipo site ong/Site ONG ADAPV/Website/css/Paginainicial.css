@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair:opsz@5..1200&family=Poppins&display=swap');
 
 *{
@@ -11,6 +10,7 @@
 /*Fundo de Tela*/
 body{
     background: transparent;
+    
 }
 /* Inicio Menu*/
 .header{
@@ -178,7 +178,7 @@ body{
     text-align: center;
 }
 .pag3{
-    background: black;
+    background: white;
     height: 600px;
 }
 .fundo{
@@ -186,13 +186,15 @@ body{
     align-items: center;
     width: 100%;
     height: 70px;
-    background-color: #b65b01;
+    background-color: black;
     padding: 0 10px 0 10px;
-    justify-content: space-between;
   }
-  .cpyrght{
+.ai{
+    align-items: flex-end;
+}
+.cpyrght{
     color: white;
   }
-  .dsnvlvd{
+.dsnvlvd{
     color: white;
   }

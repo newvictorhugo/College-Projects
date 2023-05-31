@@ -5,16 +5,11 @@
 }
 body{
     background-color: #f8f8f8;
-    margin-left: 60px;
 }
 .Htopo{
     box-shadow: 0 5px 5px #e7e7e7;
     padding: 0 0 60px 0;
     background-color: white;
-}
-.ctxt{
-    color: #575a5b;
-    text-decoration: none;
 }
 .imglogo{
     display: flex;
@@ -52,6 +47,32 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
+
+
+.menu{
+    float: left;
+    margin: 50px 40px 0 0px;
+    padding: 7px 0 7px 0;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px #e7e7e7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 90%;
+    color: black;
+    background-color: white;
+}
+.capmenu{
+    font-weight: bold;
+    color: #575a5b;
+    margin: 0 0 10px 0;
+}
+.elementomenu{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px #e7e7e7;
+    padding: 7px;
+}
 .iconprincipal{
     width: 24px;
 }
@@ -75,7 +96,7 @@ body{
     color: #575a5b;
     margin: 30px 0 0 0;
 }
-.cadasvolun{
+.cadasanimal{
     display: flex;
     float: left;
     align-items: center;
@@ -83,7 +104,7 @@ body{
     padding: 0 0 0 40px;
     border-radius: 10px;
     height: 185px;
-    width: 870px;
+    width: 500px;
     box-shadow: -5px 5px 5px #e7e7e7;
     background-color: white;
 }
@@ -93,7 +114,7 @@ body{
 }
 .formNome{
     background-color: #e7e7e7;
-    background-image: url('https://api.iconify.design/mdi/account.svg?color=%23575a5b');
+    background-image: url('https://api.iconify.design/fluent/animal-dog-24-filled.svg?color=%23575a5b');
     background-repeat: no-repeat;
     background-size: 30px;
     padding: 0 0 0 30px;
@@ -105,27 +126,29 @@ body{
 }
 .formDTNasc{
     background-color: #e7e7e7;
-    background-image: url('https://api.iconify.design/mdi/calendar-account.svg?color=%23575a5b');
+    background-image: url('https://api.iconify.design/fa6-solid/shield-dog.svg?color=%23575a5b') ;
     background-repeat: no-repeat;
     background-size: 30px;
     padding: 0 0 0 30px;
     height: 30px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 145px;
 }
 .formEnder{
     background-color: #e7e7e7;
-    background-image: url('https://api.iconify.design/mdi/map-marker.svg?color=%23575a5b');
+    background-image: url('https://api.iconify.design/fa6-solid/shield-dog.svg?color=%23575a5b');
     background-repeat: no-repeat;
     background-size: 30px;
-    padding: 0 237px 0 30px;
+    padding: 0 0px 0 30px;
     height: 30px;
+    width: 292px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .formTel{
     background-color: #e7e7e7;
-    background-image: url('https://api.iconify.design/mdi/phone.svg?color=%23575a5b');
+    background-image: url('https://api.iconify.design/icons8/gender.svg?color=%23575a5b');
     background-repeat: no-repeat;
     background-size: 30px;
     padding: 0 0 0 30px;
@@ -148,17 +171,18 @@ body{
 }
 .txtinput1{
     font-size: small;
-    margin: 0 172px 0 0;
+}
+.txtinputidade{
+    font-size: small;
+    margin-left: 171px;
 }
 .txtinput2{
     font-size: small;
+    margin-left: -140px;
 }
 .txtinput3{
     font-size: small;
     margin: 0 168px 0 0;
-}
-.disponibilidade{
-    margin-bottom: -15px;
 }
 .lar-provisorio{
     float: right;
@@ -225,4 +249,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: white;
+}
+.btns{
+    margin-top: 10px;
 }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para Adoção</title>
+    <link rel="stylesheet" href="Website/css/formulario.css">
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <img src="Website/imagens/CatDogScPng Oficial.png" alt="Icone do Site" class="imglogo">
+            <a href="PaginaInicial.html" class="logo">ADAPV</a>
+        </div>
+        <nav class="bn">
+            <a class="bn" href="PaginaInicial.html">Inicio</a>
+            <a class="bn" href="adotar.html">Adote</a>
+            <a class="bn" href="contato.html">Contato</a>
+            <a class="bn" href="login.html">Login</a>
+        </nav>
+    </header>
+    <section class="formulario">
+            <h1 class="titulo">Preencha o Formulário</h1>
+            <form class="form" action="">
+                <div>
+                    <label for="nomeani">Quem você deseja adotar? <span style="color: red;">*</span></label><br>
+                    <input type="text" name="nomeani" placeholder="Nome do animal" required><br>
+                    <label for="nome">Nome do adotante <span style="color: red;">*</span></label><br>
+                    <input type="text" name="nome" placeholder="Nome Completo" required><br>
+                    <label for="email">E-mail <span style="color: red;">*</span></label><br>
+                    <input type= "email" name="email" placeholder="E-mail para contato" required><br>
+                    <label for="tel">Telefone <span style="color: red;">*</span></label><br>
+                    <input type="tel" name="tel" placeholder="Telefone para contato(DDD)XXXXX-XXXX" required><br>
+                    <label for="dtnasc">Data de Nascimento <span style="color: red;">*</span></label><br>
+                    <input type="date" name="dtnasc" required><br>
+                    <label for="endereco">Endereço <span style="color: red;">*</span></label><br>
+                    <input type="text" name="endereco" placeholder="Endereço Completo"><br>
+                    <label for="msg">Mensagem para adoção <span style="color: red;">*</span></label><br>
+                    <input type="text" name="msg" placeholder="Conte-nos o por que você deseja adotar um pet">
+                </div>
+            </form>
+    </section>
+    
+</body>
+</html>
