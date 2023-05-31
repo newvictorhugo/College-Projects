@@ -148,6 +148,17 @@ body{
   height: auto;
 }
 .fundo{
-  height: 200px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
   background-color: #b65b01;
+  padding: 0 10px 0 10px;
+  justify-content: space-between;
+}
+.cpyrght{
+  color: white;
+}
+.dsnvlvd{
+  color: white;
 }
