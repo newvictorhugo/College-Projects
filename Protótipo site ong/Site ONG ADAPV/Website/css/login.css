@@ -60,6 +60,7 @@ color: orange;
 }
 
 .contact-section {
+    height: 650px;
     padding: 40px;
     text-align: center;
     margin: 90px 0 0 0;
@@ -121,13 +122,18 @@ textarea {
     align-items: center;
     width: 100%;
     height: 70px;
-    background-color: #b65b01;
+    background-color: orange;
     padding: 0 10px 0 10px;
     justify-content: space-between;
-  }
-  .cpyrght{
+}
+.cpyrght{
     color: white;
-  }
-  .dsnvlvd{
+}
+.dsnvlvd{
     color: white;
-  }
+}
+.footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

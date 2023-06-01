@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:opsz@5..1200&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+body {
+    background-color: #f2f2f2;
+}
+
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 0 10% 0 2%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.imglogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 10px 15px;
+    width: 50px;
+    height: auto;
+    float: left;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 20px 10px 10px 0;
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.menu{
+    font-size:18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.bn{
+    color: white;
+    font-size:18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+.bn a:hover{
+    color: orange;
+}
+.topo{
+    display: flex;
+    align-items: center;
+    background: url(retrato-de-um-cao-labrador-preto-tomado-contra-um-fundo-escuro.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.blocktexto{
+    align-items: center;
+    margin: 150px 0 0 200px;
+    width: 600px;
+}
+.titulo{
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.textotopo{
+    display: flex;
+    text-align: left;
+    color: white;
+  
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+} 
+  
+.opcoes {
+    padding: 40px;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.bank-card {
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+  
+.bank-card img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+  
+.bank-card h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+  
+.bank-card p {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+  
+.bank-card .btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+ 
+.fundo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: orange;
+    padding: 0 10px 0 10px;
+    justify-content: space-between;
+}
+.cpyrght{
+    color: white;
+}
+.dsnvlvd{
+    color: white;
+}
+  
