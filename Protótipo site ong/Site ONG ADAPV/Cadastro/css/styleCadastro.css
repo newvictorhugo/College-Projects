@@ -7,6 +7,9 @@ body{
     background-color: #f8f8f8;
     margin-left: 60px;
 }
+.menu{
+    margin-left: 50px;
+}
 .Htopo{
     box-shadow: 0 5px 5px #e7e7e7;
     padding: 0 0 60px 0;

@@ -6,6 +6,7 @@
 body{
     background-color: #f8f8f8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 60px;
 }
 .Htopo{
     box-shadow: 0 5px 5px #e7e7e7;
@@ -48,32 +49,6 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
-
-
-.menu{
-    float: left;
-    margin: 50px 40px 0 0px;
-    padding: 7px 0 7px 0;
-    border-radius: 10px;
-    box-shadow: -5px 5px 5px #e7e7e7;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    font-size: 90%;
-    color: black;
-    background-color: white;
-}
-.capmenu{
-    font-weight: bold;
-    color: #575a5b;
-    margin: 0 0 10px 0;
-}
-.elementomenu{
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    box-shadow: 0 3px 3px #e7e7e7;
-    padding: 7px;
-}
 .iconprincipal{
     width: 24px;
 }
@@ -86,9 +61,11 @@ body{
 }
 .nomeList{
     margin-top: 70px;
+    margin-left: 325px;
 }
 .sec-procurar{
     margin-top: 50px;
+    margin-left: 325px;
 }
 .input-with-icon{
     height: 22px;

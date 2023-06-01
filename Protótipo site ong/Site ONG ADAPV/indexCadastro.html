@@ -12,9 +12,9 @@
     <div class="sidebar">
         <div class="toggle-button"></div>
         <ul class="menu2">
-            <li><a href="PrinCliente.html"><i class="fas fa-home">Home</i></a></li>
-            <li><a href="indexPrincipal.html"><i class="fas fa-home">Cadastrar Voluntários</i></a></li>
-            <li><a href="PrincipalAnimal.html">Cadastrar Animais<i class="fas fa-user"></i></a></li>
+            <li><a href="PaginaInicial.html">Home</a></li>
+            <li><a href="indexPrincipal.html">Cadastrar Voluntários</a></li>
+            <li><a href="PrincipalAnimal.html">Cadastrar Animais</li>
         </ul>
     </div>
     <header class="Htopo">
@@ -27,55 +27,56 @@
             <a class="linksite" href="PaginaInicial.html">Website da ADAPV</a>
         </aside>
     </header>
-    <section>
-        <h1 class="titulopag">Cadastrar Voluntários</h1>
-        <h3 class="subtitulopag">Preencha com os dados do voluntário.</h3>
-    </section>
-    <section class="cadasvolun">
-       <form class="formulario">
-            <label class="txtinput1">Nome Completo<span class="red">*</span></label>
-            <label class="txtinput1">Data de Nascimento<span class="red">*</span></label>
-            <br>
-            <input class="formNome" type="text" id="nome" name="nome" placeholder="Nome Completo" required>
-            <input class="formDTNasc" type="date" name="data_nascimento" id="data_nascimento" required>
-            
-            <p class="txtdisp">Disponibilidade:</p>
-            <br>
-            <div class="disponibilidade">
-                <div class="lar-provisorio">
-                    <p class="txtLarProv">• Lar Provisório</p>
-                    <br>
-                    <select class="selLarProv">
-                        <option value="1" selected>Selecione...</option>
-                        <option value="2">Sim</option>
-                        <option value="3">Não</option>
-                    </select>
+    <div class="menu">
+        <section>
+            <h1 class="titulopag">Cadastrar Voluntários</h1>
+            <h3 class="subtitulopag">Preencha com os dados do voluntário.</h3>
+        </section>
+        <section class="cadasvolun">
+        <form class="formulario">
+                <label class="txtinput1">Nome Completo<span class="red">*</span></label>
+                <label class="txtinput1">Data de Nascimento<span class="red">*</span></label>
+                <br>
+                <input class="formNome" type="text" id="nome" name="nome" placeholder="Nome Completo" required>
+                <input class="formDTNasc" type="date" name="data_nascimento" id="data_nascimento" required>
+                
+                <p class="txtdisp">Disponibilidade:</p>
+                <br>
+                <div class="disponibilidade">
+                    <div class="lar-provisorio">
+                        <p class="txtLarProv">• Lar Provisório</p>
+                        <br>
+                        <select class="selLarProv">
+                            <option value="1" selected>Selecione...</option>
+                            <option value="2">Sim</option>
+                            <option value="3">Não</option>
+                        </select>
+                    </div>
+                    <div class="carro-solidario">
+                        <p class="txtCarSolid">• Carro Solidário</p>
+                        <br>
+                        <select class="selCarSolid">
+                            <option value="1" selected>Selecione...</option>
+                            <option value="2">Sim</option>
+                            <option value="3">Não</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="carro-solidario">
-                    <p class="txtCarSolid">• Carro Solidário</p>
-                    <br>
-                    <select class="selCarSolid">
-                        <option value="1" selected>Selecione...</option>
-                        <option value="2">Sim</option>
-                        <option value="3">Não</option>
-                    </select>
-                </div>
-            </div>
-            <label class="txtinput2">Endereço<span class="red">*</span></label>
-            <br>
-            <input class="formEnder" type="text" name="endereco" id="endereco" placeholder="Endereço" required>
-            <br>
-            <label class="txtinput3">Telefone<span class="red">*</span></label>
-            <label class="txtinput3">E-mail<span class="red">*</span></label>
-            <br>
-            <input class="formTel" type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
-            <input class="formEmail" type="email" name="email" id="email" placeholder="E-mail" required>
+                <label class="txtinput2">Endereço<span class="red">*</span></label>
+                <br>
+                <input class="formEnder" type="text" name="endereco" id="endereco" placeholder="Endereço" required>
+                <br>
+                <label class="txtinput3">Telefone<span class="red">*</span></label>
+                <label class="txtinput3">E-mail<span class="red">*</span></label>
+                <br>
+                <input class="formTel" type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
+                <input class="formEmail" type="email" name="email" id="email" placeholder="E-mail" required>
 
-            <input type="submit" class="confirmar" value="Confirmar">
-            <input type="reset" class="limpar" value="Limpar">
-            
-       </form>
-    </section>
-    
+                <input type="submit" class="confirmar" value="Confirmar">
+                <input type="reset" class="limpar" value="Limpar">
+                
+        </form>
+        </section>
+    </div>
 </body>
 </html>

@@ -95,12 +95,13 @@ body{
 
 .animal-card {
   width: 300px;
-  height: auto;
+  height: 500px;
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .animal-card img {
@@ -109,11 +110,13 @@ body{
   object-fit: cover;
   border-radius: 5px;
   margin-bottom: 10px;
+ 
 }
 
 .animal-card h3 {
   font-size: 24px;
   margin-bottom: 5px;
+
 }
 
 .animal-card p {
@@ -132,7 +135,6 @@ body{
 }
 
 .footer {
-  background-color: black;
   color: #fff;
   padding: 20px;
   text-align: center;

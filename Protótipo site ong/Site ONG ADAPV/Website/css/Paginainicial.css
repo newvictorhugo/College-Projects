@@ -164,37 +164,33 @@ body{
     text-decoration: none;
 }
 /* Pagina 2 Fundo */
+
 .pag2{
-    background:wheat;
+    background:black;
     color: white;
     height: 500px;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .pt2 h1{
     color:black;
-    height:300px;
-    text-align: center;
+    justify-content: start;
 }
-.pag3{
-    background: white;
-    height: 600px;
+span{
+    color: orange;
+}
+.footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 .fundo{
     display: flex;
     align-items: center;
     width: 100%;
     height: 70px;
-    background-color: black;
+    background-color: orange;
     padding: 0 10px 0 10px;
-  }
-.ai{
-    align-items: flex-end;
-}
-.cpyrght{
-    color: white;
-  }
-.dsnvlvd{
-    color: white;
+    justify-content: space-between;
+    color:white;
   }
