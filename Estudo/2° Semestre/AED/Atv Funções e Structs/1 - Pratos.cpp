@@ -46,6 +46,24 @@ void exibirInfoRank(struct Pratos meuPratoFavorito[], int posicao){
 	}
 }
 
+void exibirInfoNome(struct Pratos meuPratoFavorito[]){
+	int i;
+	char pratoInfoNome[QNT_PRAT];
+	printf("Digite o nome do prato: ");
+	fflush(stdin);
+	fgets(pratoInfoNome, sizeof(pratoInfoNome), stdin);
+	for(i=0;i<QNT_PRAT;i++){
+		
+		int resultadoInfoNome = strcmp(pratoInfoNome, meuPratoFavorito[i].nome);
+		if(resultadoInfoNome == 0){
+			printf("\nNome do prato: %s\n", meuPratoFavorito[i].nome);
+		    printf("Tipo do prato: %s\n", meuPratoFavorito[i].tipo);
+		    printf("Numero de ingredientes: %d\n\n", meuPratoFavorito[i].numIngredientes);
+		    printf("Posicao no ranking: %d\n\n", meuPratoFavorito[i].ranking);
+		}
+	}
+}
+
 int menuExibirTipo(){
 	int opcoesExibirTipo;
 	printf("1 - Entrada\n");
@@ -110,13 +128,13 @@ int main() {
 							            printf("Posicao no ranking: %d\n\n", meuPratoFavorito[i].ranking);
 							            encontrou = 1;
 							        }
+							        else{
+										printf("\nNao existe prato de Entrada na lista!!\n\n");
+										break;
+									}
 							    }
-							    if (!encontrou) {
-							        printf("\nNao existe prato de Entrada na lista!!\n\n");
-							    }
+							    
 							    break;
-
-					    		
 					    		
 					    	case 2:
 					    		printf("\n- PRATOS PRINCIPAIS -\n");
@@ -157,6 +175,10 @@ int main() {
 
 	    		
 	    			break;
+	    			
+	    			case 3:
+	    				exibirInfoNome(meuPratoFavorito);
+	    				
 	   			}
 	   	}
     }while(opcoes != 0);
