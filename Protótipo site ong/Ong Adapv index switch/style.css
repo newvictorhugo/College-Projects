@@ -1,0 +1,820 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+
+    /* ------Configuração Geral------  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+        
+    /* ------Definição de Cor------ */
+:root{
+    --fundo-cor:  #000000;
+    --sg-fd-cor: #FFC22F;
+    --cor-texto: #000000;
+    --cor-principal: #FFAC10;
+    --cor-principal2: #ffffff;
+    --cor-Detalhes: #ffffff;
+}
+        
+html {
+    font-size: 62,5%;
+    overflow-x: hidden;
+}
+
+    /* ------Cor de Fundo do Corpo------ */ 
+body{
+    background: var(--fundo-cor);
+    color:var(--cor-texto);
+}
+
+    /* ------Cabeçalho------ */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 5% 0 2%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: 0.3s;
+}
+.header.headercolor{
+    background-color: var(--fundo-cor);
+}
+
+.header .logo{
+    display: flex;
+    margin: 20px 10px 10px 0;
+}
+
+    /* ------logo------ */
+.imglogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 10px 15px;
+    width: 50px;
+    height: auto;
+    float: left;
+}
+.logo{
+    font-size: 27px;
+    color: var(--cor-principal2);
+    font-weight: 600;
+}
+    /* ------Def Animação | Formatação Menu------ */
+  
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar a{
+    font-size: 19px;
+    color: var(--cor-principal2);
+    margin-left: 27px;
+    transition: 0.5s;
+}
+  /*!  ------Def Animação | Formatação Menu BUTOON------ */
+.navbar .a{
+    font-size: 19px;
+    color: var(--cor-Detalhes);
+    transition: 0.5s;
+}
+
+.navbar button{
+    color: var(--sg-fd-cor);
+    background: transparent;
+    border: solid 1px var(--cor-principal);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+    background-color: var(--cor-principal);
+    color: white;
+    transition: 0,5s; 
+}
+  /* ------Def Animação | Formatação Menu------ */
+.navbar a:hover,
+.navbar a.ativo {
+    color: #F58634;
+}
+
+/* ------Icone------*/
+#icone-menu {
+    font-size: 40px;
+    color: var(--cor-texto);
+    cursor: pointer;
+    display:none;
+    z-index: 100;
+}
+
+section{
+    min-height: 100vh;;
+    padding: 10rem, 9%, 2rem;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    padding: 0 6%;
+    background-image:url(./imagens/vista-frontal-de-um-lindo-cachorro-com-espaco-de-copia.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: 500;
+
+}
+
+.inicio-conteudo{
+    max-width: 60;
+    z-index: 2;
+}
+
+.inicio-conteudo h1{
+    font-size: 2.6rem;
+    max-height: 900;
+    line-height: 1.3;
+}
+
+.inicio-conteudo .texto-animado{
+    position: relative;
+    width: 32.8rem;
+}
+
+.inicio-conteudo .texto-animado h3{
+    font-size: 2.0rem;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: .7px var(--cor-principal2);
+}
+.pParagrafo{
+    position: relative;
+    z-index: 100;
+}
+/*! Formatação Body | Distanciamento | Fonte*/
+.inicio-conteudo p{
+    font-size: 1.0rem;
+    margin: 2rem 0px 2rem;
+}
+
+.botao{
+    position: relative;
+    display: flex;
+    width: 31.5rem;
+    height: 5rem;
+}
+
+.botao .btao{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+    /* ! Mudar a Cor do texto do botão*/
+    background: var(--sg-fd-cor);
+    border: .2rem solid var(--cor-principal);
+    border-radius: .8rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    /*? Mudar a Cor do texto do botão*/
+    color:var(--cor-texto);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.botao .btao::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: var(--fundo-cor);
+    z-index: -1;
+    transition: .5s;
+}
+
+.botao .btao:hover::before{
+    width: 100%;
+}
+
+.icones{
+    position: absolute;
+    bottom: 4rem;
+    height: -2rem;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* todo Icones */
+.icones a{
+    position:relative;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    /* ? Cor Borda Icone*/
+    
+    border-radius: 50%;
+    font-size: 20px;
+    /* ? Cor Icone */
+    color: var(--cor-texto);
+    z-index: 1;
+    overflow: hidden;
+    transition: .4s;
+}
+.icones a:hover{
+    color: var(--cor-Detalhes);
+}
+
+.icones .Face :hover{
+    color: var();
+}
+
+/*! Animação Icones*/
+.icones a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: var();
+    z-index: -1;
+    transition: .4s;
+}
+
+/*? Animação Final Icones */
+.icones a:hover::before{
+    width: 100%;
+}
+
+
+
+
+
+/*2 pag 2*/
+
+.pag2{
+    background-color:var(--fundo-cor);
+    display: flex;
+    justify-content:flex-start ;
+    height: 10px;
+}
+
+/*!Ponto de Quebra*/
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width: 1200px){
+    .inicio{
+        padding: 0 4%;
+    }
+}
+@media (max-width: 850px){
+    #icone-menu{
+        display: block;
+    }
+    .header{
+      display: block;
+      padding: 0 25%
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+    .navbar a{
+        font-size: 15px;
+        margin: 0px 6px ;
+    }
+    .navbar .a{
+      font-size: 15px;
+    }
+    .navbar button{
+      width: 70px;
+    }
+
+    .imglogo{
+      width: 40px;
+      justify-content: center;
+    }
+    .logotopo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+    .pag2 .slider .box .details {
+      margin: 0 0 100px 0;
+    }
+}
+
+/*!pag2*/
+.pag2,
+.pag2:before,
+.pag2:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.pag2 html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+@media only screen and (max-width: 800px) {
+.pag2  html {
+    font-size: 57%;
+  }
+}
+
+.pag2 body {
+  background-color: #000;
+  color: #fff;
+  padding: 8rem;
+}
+@media only screen and (max-width: 1000px) {
+.pag2 body {
+    padding: 0;
+  }
+}
+
+.pag2 .container {
+  position: relative;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1000px) {
+.pag2 .container {
+    border-radius: 0;
+  }
+}
+
+.pag2 .slider {
+  display: flex;
+  width: 500%;
+  height: 55rem;
+  transition: all 0.25s ease-in;
+  transform: translateX(0);
+}
+@media only screen and (max-width: 1000px) {
+.pag2 .slider {
+    height: 100vh;
+  }
+}
+.pag2 .slider .box {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+@media only screen and (max-width: 650px) {
+.pag2 .slider .box {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media (max-width: 1400px){
+  .pag2 .slider .box {
+    height: 700px;
+  }
+}
+/*Comentario Toto*/
+.pag2 .slider .box .bg {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 55%;
+  transform: skewX(7deg);
+  position: absolute;
+  height: 100%;
+  left: -10%;
+  padding-left: 20rem;
+  transform-origin: 0 100%;
+}
+@media only screen and (max-width: 800px) {
+.pag2 .slider .box .bg {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 650px) {
+.pag2 .slider .box .bg {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 54%;
+    transform: skewX(0deg);
+  }
+}
+.pag2 .slider .box .bg::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: inherit;
+  pointer-events: none;
+  transform: skewX(10deg);
+}
+@media only screen and (max-width: 650px) {
+.pag2 .slider .box .bg::before {
+    width: 120%;
+    bottom: 0;
+    transform: skewX(0deg);
+  }
+}
+.pag2 .slider .box .details {
+  padding: 5rem;
+  padding-left: 10rem;
+  z-index: 100;
+  grid-column: 1/span 1;
+  grid-row: 1/-1;
+}
+@media only screen and (max-width: 650px) {
+.pag2 .slider .box .details {
+    grid-row: 2/span 1;
+    grid-column: 1/-1;
+    text-align: center;
+    padding: 2rem;
+    transform: translateY(-9rem);
+  }
+}
+.pag2 .slider .box .details h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.pag2 .slider .box .details p {
+  display: inline-block;
+  font-size: 1.3rem;
+  color: #B5B4B4;
+  margin-bottom: 2rem;
+  margin-right: 5rem;
+}
+@media only screen and (max-width: 800px) {
+.pag2 .slider .box .details p {
+    margin-right: 0;
+  }
+}
+.pag2 .slider .box .details button {
+  padding: 1rem 3rem;
+  color: #fff;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.pag2 .slider .box .details button:hover {
+  opacity: 0.8;
+}
+.pag2 .slider .box .details button:focus {
+  outline: none;
+  border: none;
+}
+.pag2 .slider .box1 {
+  background-image: url(./imagens/doguinho-husky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag2 .slider .box1 button {
+  background-color: #5F8DB5;
+} 
+
+.pag2 .slider .box2 {
+  background-image: url(./imagens/cachorro-fofo-usando-oculos-azuis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag2 .slider .box2 button {
+  background-color: cyan;
+} 
+.pag2 .slider .box3 {
+  background-image: url(./imagens/cachorro-sorridente-fofo-com-chapeu-de-papai-noel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag2 .slider .box3 button {
+  background-color: red;
+}
+.pag2 .slider .box4 {
+  background-image: url(./imagens/cachorrinho-fofo-isolado-em-amarelo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag2 .slider .box4 button {
+  background-color: yellow;
+}
+.pag2 .slider .box5 {
+  background-image: url(./imagens/cachorro-sorridente-fofo-usando-oculos-escuros.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag2 .slider .box5 button {
+  background-color: orange;
+}
+.pag2 .slider .illustration {
+  grid-column: 2/-1;
+  grid-row: 1/-1;
+  justify-self: center;
+}
+@media only screen and (max-width: 650px) {
+.pag2 .slider .illustration {
+    grid-row: 1/span 1;
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/*Cor da BUdega Rosa*/
+.pag2 .slider .illustration div {
+  height: 25rem;
+  width: 18rem;
+  border-radius: 3rem;
+  background-color: none;
+  position: relative;
+  transform: skewX(-10deg);
+}
+@media only screen and (max-width: 800px) {
+.pag2 .slider .illustration div {
+    height: 20rem;
+    width: 15rem;
+  }
+}
+.pag2 .slider .illustration div::after, .slider .illustration div::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 3rem;
+  top: 0;
+  left: 0;
+}
+.pag2 .slider .illustration div::after {
+  transform: translate(4rem, -1rem);
+}
+.pag2 .slider .illustration div::before {
+  transform: translate(2rem, -2rem);
+}
+
+.pag2 .prev,
+.pag2 .next,
+.pag2 .trail {
+  z-index: 10000;
+  position: absolute;
+}
+
+.pag2 .prev,
+.pag2 .next {
+  width: 4rem;
+  cursor: pointer;
+  opacity: 0.2;
+  transition: all 0.3s ease;
+}
+@media only screen and (max-width: 650px) {
+.pag2 .prev,
+.pag2 .next {
+    display: none;
+  }
+}
+.pag2 .prev:hover,
+.pag2 .next:hover {
+  opacity: 1;
+}
+
+.pag2 .prev {
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+}
+
+.pag2 .next {
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+}
+
+.pag2 .trail {
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 650px) {
+.pag2 .trail {
+    width: 90%;
+    bottom: 13%;
+    color: transparent;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+.pag2 .trail div {
+    padding: 1rem;
+  }
+}
+
+.pag2 .active {
+  opacity: 1 !important;
+}
+
+.conato{
+  background-color: rgb(165, 120, 78)
+}
+
+.conato .contact {
+  padding: 4%;
+  height: 400px;
+  z-index: 1000;
+}
+
+.conato .col-md-3 {
+  background: #ff9b00;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.contact-info {
+  margin: 0 0 5% 0;
+}
+
+.col-md-9 {
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+}
+
+.contact-form button {
+  background: var(--cor-principal);
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+
+.contact-form button:focus {
+  box-shadow: none;
+}
+.footer {
+  position: relative;
+  width: 100%;
+  background: black;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  filter: brightness(0.0);
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 999;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 998;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 999;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 998;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .header.headercolor {
+    transition: top 0.3s ease-in-out;
+    position: static;
+  }
+  body {
+    margin-top: 0;
+  }
+}

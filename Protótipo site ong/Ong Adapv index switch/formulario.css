@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:opsz@5..1200&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+/*Fundo de Tela*/
+body{
+    background-color: #f8f8f8;
+}
+/* Inicio Menu*/
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 0 10% 0 2%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.imglogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 10px 15px;
+    width: 50px;
+    height: auto;
+    float: left;
+}
+/*Logo Adapv*/
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 20px 10px 10px 0;
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.bn{
+    color: white;
+    font-size:18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+.bn a:hover{
+    color: orange;
+}
+.formulario{
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+}
+.red{
+    color: red;
+}
+label{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+input{
+    width: 400px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.enviar {
+    background-color: #ff8000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.txtsaiba{
+    margin: 20px;
+}
+.fundo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    /*background-color: #b65b01;*/
+    background-color: orange;
+    padding: 0 10px 0 10px;
+    justify-content: space-between;
+  }
+.cpyrght{
+    color: white;
+}
+.dsnvlvd{
+    color: white;
+}

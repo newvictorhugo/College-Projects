@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #f8f8f8;
+    margin-left: 60px;
+}
+.menu{
+    margin-left: 50px;
+}
+.Htopo{
+    box-shadow: 0 5px 5px #e7e7e7;
+    padding: 0 0 60px 0;
+    background-color: white;
+}
+.ctxt{
+    color: #575a5b;
+    text-decoration: none;
+}
+.imglogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 15px;
+    width: 40px;
+    height: auto;
+    float: left;
+}
+.Htextologo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 20px 0 0 0;
+}
+.titulo{
+    color: #575a5b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Hvisitesite{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin: 23px 0 0 0;
+}
+.imgiconedesite{
+    margin-left: 90px;
+    width: 20px;    
+}
+.linksite{
+    font-size: smaller;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.iconprincipal{
+    width: 24px;
+}
+.iconcadasvolun{
+    width: 24px;
+}
+.iconlistvolun{
+    width: 23px;
+    margin-right: 5px;
+}
+
+
+.titulopag{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px 0 0 0;
+}
+.subtitulopag{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #575a5b;
+    margin: 30px 0 0 0;
+}
+.cadasvolun{
+    display: flex;
+    float: left;
+    align-items: center;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 40px;
+    border-radius: 10px;
+    height: 185px;
+    width: 870px;
+    box-shadow: -5px 5px 5px #e7e7e7;
+    background-color: white;
+}
+.formulario{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 850px;
+}
+.formNome{
+    background-color: #e7e7e7;
+    background-image: url('https://api.iconify.design/mdi/account.svg?color=%23575a5b');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 0 0 0 30px;
+    width: 256px;
+    height: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.formDTNasc{
+    background-color: #e7e7e7;
+    background-image: url('https://api.iconify.design/mdi/calendar-account.svg?color=%23575a5b');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 0 0 0 30px;
+    height: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formEnder{
+    background-color: #e7e7e7;
+    background-image: url('https://api.iconify.design/mdi/map-marker.svg?color=%23575a5b');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 0 237px 0 30px;
+    height: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formTel{
+    background-color: #e7e7e7;
+    background-image: url('https://api.iconify.design/mdi/phone.svg?color=%23575a5b');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 0 0 0 30px;
+    height: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formEmail{
+    background-color: #e7e7e7;
+    background-image: url('https://api.iconify.design/mdi/email.svg?color=%23575a5b');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 0 0 0 30px;
+    height: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.red{
+    color: red;
+}
+.txtinput1{
+    font-size: small;
+    margin: 0 172px 0 0;
+}
+.txtinput2{
+    font-size: small;
+}
+.txtinput3{
+    font-size: small;
+    margin: 0 168px 0 0;
+}
+.disponibilidade{
+    margin-bottom: -15px;
+}
+.lar-provisorio{
+    float: right;
+    margin: 0 50px 0 50px;
+}
+.txtdisp{
+    float: right;
+    font-size: small;
+    font-weight: bold;
+    color: #575a5b;
+    margin: -16px 240px 0 0;
+}
+.txtLarProv{
+    float: right;
+    font-size: small;
+    font-weight: bold;
+    color: #575a5b;
+    margin: 0 20px 0 0;
+}
+.selLarProv{
+    float: right;
+    width: 130px;
+    height: 30px;
+    margin: 0 3px 0 0;
+    border: solid #575a5b;
+    border-radius: 6px;
+}
+.carro-solidario{
+    margin: 0 0 -18px 0;
+}
+.txtCarSolid{
+    float: right;
+    font-size: small;
+    font-weight: bold;
+    color: #575a5b;
+    margin: 0 0 0 0;
+}
+.selCarSolid{
+    float: right;
+    width: 130px;
+    height: 30px;
+    margin: 0 -10px 0 0;
+    border: solid #575a5b;
+    border-radius: 6px;
+}
+.limpar{
+    float: right;
+    margin: 0 20px 0 0;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #909090;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.confirmar{
+    float: right;
+    margin: 0 20px 0 0;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #4f9045;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cadastro/css/ListaAnimal.css">
+    <link rel="stylesheet" href="Cadastro/css/menuLateral.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <title>ONG ADAPV</title>
+</head>
+<body>
+    <div class="sidebar">
+      <div class="toggle-button"></div>
+      <ul class="menu2">
+          <li><a href="PaginaInicial.html">Home</a></li>
+          <li><a href="indexPrincipal.html">Cadastrar Voluntários</a></li>
+          <li><a href="PrincipalAnimal.html">Cadastrar Animais</li>
+      </ul>
+    </div>
+    <header class="Htopo">
+      <a href="PrincipalAnimal.html">
+        <img class="imglogo" src="./Cadastro/imagens/CatDogScPng Oficial.png" alt="Icone do site">
+        <header class="Htextologo">
+            <h3 class="titulo">ONG ADAPV</h3>
+        </header>
+      </a>
+        <aside class="Hvisitesite">
+            <img class="imgiconedesite" src="Cadastro/imagens/Iconesite.png" alt="Icone que direciona para o site da ONG">
+            <a class="linksite" href="PaginaInicial.html">Visite o site</a>
+        </aside>
+    </header>
+    <section>
+        <h1 class="nomeList">Lista de Animais</h1>
+    </section>
+    <section class="cabeçalho">
+        <section class="sec-procurar">
+            <i class="fas fa-search"></i>
+            <input type="text" class="input-with-icon" />
+        </section>
+        <section class="sec-lado">
+            <label class="num-Vol" type="text">Cadastrados(5)Animais</label>
+            <i class="fas fa-filter"></i>
+            <select class="select-with-icon">
+                <option value="Ordenar" selected>
+                  Ordenar
+                </option>
+                <option value="opcao1">ID</option>
+                <option value="opcao2">Nome</option>
+                <option value="opcao2">Raça</option>
+                <option value="opcao2">Sexo</option>
+                <option value="opcao2">Idade</option>
+              </select>
+        </section>
+    </section>    
+    <table class="data-table">
+        <thead>
+          <tr>
+            <th class="first">Ações</th>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Raça</th>
+            <th>Sexo</th>
+            <th class="last">Idade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+                <a href="#" class="edit-btn">
+                  <i class="fas fa-pencil-alt"></i>
+                </a>
+                <a href="#" class="delete-btn">
+                  <i class="fas fa-trash"></i>
+                </a>
+              </td>
+            <td>1</td>
+            <td>Ariel</td>
+            <td>Shih-Tzu</td>
+            <td>Fêmea</td>
+            <td>6 Anos</td>
+          </tr>
+          <tr>
+            <td>
+                <a href="#" class="edit-btn">
+                  <i class="fas fa-pencil-alt"></i>
+                </a>
+                <a href="#" class="delete-btn">
+                  <i class="fas fa-trash"></i>
+                </a>
+              </td>
+            <td>2</td>
+            <td>Amora</td>
+            <td>Shih-Tzu</td>
+            <td>Fêmea</td>
+            <td>5 Anos</td>
+          </tr>
+          <tr>
+            <td>
+                <a href="#" class="edit-btn">
+                  <i class="fas fa-pencil-alt"></i>
+                </a>
+                <a href="#" class="delete-btn">
+                  <i class="fas fa-trash"></i>
+                </a>
+              </td>
+            <td>3</td>
+            <td>Riley</td>
+            <td>Pastor Alemão</td>
+            <td>Macho</td>
+            <td>4 Anos</td>
+          </tr>
+          <tr>
+            <td>
+                <a href="#" class="edit-btn">
+                  <i class="fas fa-pencil-alt"></i>
+                </a>
+                <a href="#" class="delete-btn">
+                  <i class="fas fa-trash"></i>
+                </a>
+              </td>
+            <td>4</td>
+            <td>Totó</td>
+            <td>SRD</td>
+            <td>Macho</td>
+            <td>5 Anos</td>
+          </tr>
+          <tr>
+            <td class="firstTD">
+                <a href="#" class="edit-btn">
+                  <i class="fas fa-pencil-alt"></i>
+                </a>
+                <a href="#" class="delete-btn">
+                  <i class="fas fa-trash"></i>
+                </a>
+              </td>
+              <td>5</td>
+              <td>Caramelo</td>
+              <td>SRD</td>
+              <td>Macho</td>
+              <td class="lastTD">3 Anos</td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>

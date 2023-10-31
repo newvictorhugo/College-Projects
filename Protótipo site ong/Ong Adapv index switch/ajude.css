@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:opsz@5..1200&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+}
+    /* ------Definição de Cor------ */
+:root{
+    --fundo-cor:  #000000;
+    --sg-fd-cor: #FFC22F;
+    --cor-texto: #000000;
+    --cor-principal: #FFAC10;
+    --cor-principal2: #ffffff;
+    --cor-Detalhes: #ffffff;
+    --cor-fundo: rgba(220,218,213,255)
+}
+
+body{
+    background: var(--cor-fundo);
+    color:var(--cor-texto);
+  }
+
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 5% 0 2%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: 0.3s;
+}
+.header.headercolor{
+    background-color: var(--fundo-cor);
+}
+
+.header .logo{
+    display: flex;
+    margin: 20px 10px 10px 0;
+}
+.imglogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 10px 15px;
+    width: 50px;
+    height: auto;
+    float: left;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 20px 10px 10px 0;
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.navbar a{
+    font-size: 19px;
+    color: var(--cor-principal2);
+    font: weight 600px;
+    margin-left: 27px;
+    transition: 0.5s
+}
+.navbar .a{
+    font-size: 19px;
+    color: var(--cor-Detalhes);
+    font: weight 600px;;
+    transition: 0.5s;
+}
+.navbar button{
+    color: var(--sg-fd-cor);
+    background: transparent;
+    border: solid 1px var(--cor-principal);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+.navbar button:hover{
+    background-color: var(--cor-principal);
+    color: white;
+    transition: 0,5s; 
+}
+.navbar a:hover,
+.navbar a.ativo {
+    color: #F58634;
+}
+.menu{
+    font-size:18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.bn{
+    color: white;
+    font-size:18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+.bn a:hover{
+    color: orange;
+}
+.topo{
+    display: flex;
+    align-items: center;
+    background: url(imagens/retrato-de-um-cao-labrador-preto-tomado-contra-um-fundo-escuro.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.blocktexto{
+    align-items: center;
+    margin: 150px 0 0 200px;
+    width: 600px;
+}
+.titulo{
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.textotopo{
+    display: flex;
+    text-align: left;
+    color: white;
+  
+}
+/* Fim Menu */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+  
+.opcoes{
+    padding: 40px;
+    margin: 0 15%;
+    text-align: center;
+    display: flex;
+    background-image: url(./imagens/retrato-de-cachorro-adoravel-bulldog-branco.jpg);
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.bank-card {
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    opacity: 1.0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.bank-card img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+  
+.bank-card h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+  
+.bank-card p {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+  
+.bank-card .btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+ 
+.fundo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: orange;
+    padding: 0 10px 0 10px;
+    justify-content: space-between;
+}
+.cpyrght{
+    color: white;
+}
+.dsnvlvd{
+    color: white;
+}
+@media (max-width: 850px){
+    #icone-menu{
+        display: block;
+    }
+    .header{
+      display: block;
+      padding: 0 25%
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+    .navbar a{
+        font-size: 15px;
+        margin: 0px 6px ;
+    }
+    .navbar .a{
+      font-size: 15px;
+    }
+    .navbar button{
+      width: 70px;
+    }
+  
+    .imglogo{
+      width: 40px;
+      justify-content: center;
+    }
+    .logotopo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .blocktexto{
+      display: block;
+      font-size: small;
+      margin: 70px 0 0 30px;
+      width: 600px;
+    }
+    .topo{
+      display: flex;
+      justify-content: center;
+    }
+    .opcoes{
+        margin: 0;
+    }
+  }
+  
+ 

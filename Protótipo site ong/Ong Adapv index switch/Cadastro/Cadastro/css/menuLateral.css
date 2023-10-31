@@ -1,0 +1,58 @@
+.sidebar {
+    width: 60px;
+    height: 100vh;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidebar:hover {
+width: 200px;
+}
+
+.toggle-button {
+width: 20px;
+height: 20px;
+background-color: #fff;
+position: absolute;
+top: 20px;
+left: 20px;
+transition: transform 0.3s ease;
+}
+
+.sidebar:hover .toggle-button {
+transform: rotate(180deg);
+}
+
+.menu2 {
+list-style-type: none;
+margin-top: 60px;
+padding: 0;
+opacity: 0;
+transition: opacity 0.3s ease;
+}
+
+.sidebar:hover .menu2 {
+opacity: 1;
+}
+
+.menu2 li {
+margin-bottom: 10px;
+}
+
+.menu2 li a {
+display: block;
+color: #fff;
+text-decoration: none;
+padding: 10px;
+transition: background-color 0.3s ease;
+}
+
+.menu2 li a:hover {
+background-color: #555;
+}
+  

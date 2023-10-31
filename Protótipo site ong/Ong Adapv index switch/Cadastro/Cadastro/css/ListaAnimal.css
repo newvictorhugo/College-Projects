@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #f8f8f8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 60px;
+}
+.Htopo{
+    box-shadow: 0 5px 5px #e7e7e7;
+    padding: 0 0 60px 0;
+    background-color: white;
+}
+.imglogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 15px;
+    width: 40px;
+    height: auto;
+    float: left;
+}
+.Htextologo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 20px 0 0 0;
+}
+.titulo{
+    color: #575a5b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Hvisitesite{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin: 23px 0 0 0;
+}
+.imgiconedesite{
+    margin-left: 90px;
+    width: 20px;    
+}
+.linksite{
+    font-size: smaller;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.iconprincipal{
+    width: 24px;
+}
+.iconcadasvolun{
+    width: 24px;
+}
+.iconlistvolun{
+    width: 23px;
+    margin-right: 5px;
+}
+.nomeList{
+    margin-top: 70px;
+    margin-left: 325px;
+}
+.sec-procurar{
+    margin-top: 50px;
+    margin-left: 325px;
+}
+.input-with-icon{
+    height: 22px;
+    width: 178px;
+    padding-left: 22px;
+    background-color: gainsboro;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+    border: solid 1.5px;
+    box-shadow: 5px 5px 5px #e7e7e7;
+}
+.fa-search{
+    margin-left: 4px;
+    margin-top: 3px;
+    position: absolute;
+    z-index: 2;
+}
+.sec-lado{
+    margin-left: 720px;
+}
+.num-Vol{
+    height: 22px;
+    width: 200px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: solid 1.5px;
+    box-shadow: 5px 5px 5px #e7e7e7;
+}
+.select-with-icon{
+    padding-left: 22px;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 22px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    border: solid 1.5px;
+    box-shadow: 5px 5px 5px #e7e7e7;
+}
+.fa-filter{
+    margin-left: 4px;
+    margin-top: 3px;
+    position:absolute;
+    z-index: 2;
+}
+.data-table {
+    width: 700px;
+    margin-top: 13px;
+    margin-left: 325px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 10px 10px 10px grey ;
+    font-size: small;
+    border-spacing: 1px;
+    background: #ccc;
+    border-radius: 10px;
+}
+th{
+    background-color: #ccc;
+    border: 1px 1px 1px 1px;
+    height: 30px;
+    padding: 2px;
+    padding-left: 5px;
+    text-align: left;
+}
+td{
+    border: 1px 1px 1px 1px solid #ccc;
+    height: 30px;
+    background-color: white;
+    padding-left: 5px;
+    padding: 2px;
+    text-align: left;
+}
+.first{
+    border-radius: 10px 0px 0px 0px;
+}
+.last{
+    border-radius: 0px 10px 0px 0px;
+}
+.firstTD{
+    border-radius: 0px 0px 0px 10px;
+}
+.lastTD{
+    border-radius: 0px 0px 10px 0px;
+}
+.data-table .edit-btn,
+.data-table .delete-btn {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #333;
+  text-decoration: none;
+}
+.data-table .edit-btn:hover,
+.data-table .delete-btn:hover {
+  color: #ff0000;
+}
+
+.data-table i {
+  vertical-align: middle;
+}
